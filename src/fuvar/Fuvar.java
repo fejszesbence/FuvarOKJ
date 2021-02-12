@@ -14,7 +14,6 @@ public class Fuvar {
 
     public Fuvar(String sor) throws ParseException {
         NumberFormat formatum = NumberFormat.getInstance(Locale.getDefault());
-        
         String[] darabok = sor.split(";");
         this.taxiAzon = Integer.parseInt(darabok[0]);
         this.indulas = darabok[1];

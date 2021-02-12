@@ -17,6 +17,8 @@ public class FuvarProgram {
             fuvarok.add(new Fuvar(sorok.get(i)));
         }
         
+        System.out.printf("3. feladat: %d fuvar\n", fuvarok.size());
+        
     }
     
 }
