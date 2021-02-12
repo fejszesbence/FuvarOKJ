@@ -23,7 +23,33 @@ public class Fuvar {
         this.borravalo = formatum.parse(darabok[5]).doubleValue();
         this.fizmod = darabok[6];
     }
-    
-    
+
+    public int getTaxiAzon() {
+        return taxiAzon;
+    }
+
+    public String getIndulas() {
+        return indulas;
+    }
+
+    public int getIdotartam() {
+        return idotartam;
+    }
+
+    public double getTavolsag() {
+        return tavolsag;
+    }
+
+    public double getViteldij() {
+        return viteldij;
+    }
+
+    public double getBorravalo() {
+        return borravalo;
+    }
+
+    public String getFizmod() {
+        return fizmod;
+    }
     
 }
